@@ -17,12 +17,33 @@
 		CD97462020DF928700F78A68 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97461620DF928600F78A68 /* HomeViewController.swift */; };
 		CD97462120DF928700F78A68 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97461720DF928600F78A68 /* FirstTableViewController.swift */; };
 		CD97462220DF928700F78A68 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97461820DF928600F78A68 /* SecondViewController.swift */; };
-		CD97462320DF928700F78A68 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97461920DF928600F78A68 /* ThirdViewController.swift */; };
 		CD97462420DF928700F78A68 /* DIYData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97461A20DF928700F78A68 /* DIYData.swift */; };
 		CD97462520DF928700F78A68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97461B20DF928700F78A68 /* LoginViewController.swift */; };
 		CD97462620DF928700F78A68 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97461C20DF928700F78A68 /* StoreViewController.swift */; };
-		CD97462720DF928700F78A68 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CD97461D20DF928700F78A68 /* images */; };
 		CD97462920DF930E00F78A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97462820DF930E00F78A68 /* AppDelegate.swift */; };
+		CD97464120DF959B00F78A68 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97462C20DF959200F78A68 /* calendar.png */; };
+		CD97464220DF959B00F78A68 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD97462D20DF959200F78A68 /* banner.jpg */; };
+		CD97464320DF959B00F78A68 /* im3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97462E20DF959200F78A68 /* im3.png */; };
+		CD97464420DF959B00F78A68 /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97462F20DF959200F78A68 /* 179-notepad.png */; };
+		CD97464520DF959B00F78A68 /* juice.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463020DF959200F78A68 /* juice.png */; };
+		CD97464620DF959B00F78A68 /* welcome-images-25.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463120DF959300F78A68 /* welcome-images-25.png */; };
+		CD97464720DF959B00F78A68 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463220DF959300F78A68 /* edit.png */; };
+		CD97464820DF959B00F78A68 /* 80-shopping-cart.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463320DF959300F78A68 /* 80-shopping-cart.png */; };
+		CD97464920DF959B00F78A68 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463420DF959300F78A68 /* food.png */; };
+		CD97464A20DF959B00F78A68 /* diet.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463520DF959300F78A68 /* diet.png */; };
+		CD97464B20DF959B00F78A68 /* im1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463620DF959300F78A68 /* im1.png */; };
+		CD97464C20DF959B00F78A68 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463720DF959300F78A68 /* apple.png */; };
+		CD97464D20DF959B00F78A68 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463820DF959400F78A68 /* coffee.png */; };
+		CD97464E20DF959B00F78A68 /* sample-321-like.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463920DF959400F78A68 /* sample-321-like.png */; };
+		CD97464F20DF959B00F78A68 /* store.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463A20DF959400F78A68 /* store.png */; };
+		CD97465020DF959B00F78A68 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463B20DF959400F78A68 /* like.png */; };
+		CD97465120DF959B00F78A68 /* sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463C20DF959A00F78A68 /* sandwich.png */; };
+		CD97465220DF959B00F78A68 /* im33.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463D20DF959A00F78A68 /* im33.png */; };
+		CD97465320DF959B00F78A68 /* im2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463E20DF959A00F78A68 /* im2.png */; };
+		CD97465420DF959B00F78A68 /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97463F20DF959A00F78A68 /* exit.png */; };
+		CD97465520DF959B00F78A68 /* in-love.png in Resources */ = {isa = PBXBuildFile; fileRef = CD97464020DF959A00F78A68 /* in-love.png */; };
+		CD97465820DF9B0F00F78A68 /* MyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97465720DF9B0F00F78A68 /* MyDetailViewController.swift */; };
+		CD97465A20DF9B1E00F78A68 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97465920DF9B1E00F78A68 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +59,33 @@
 		CD97461620DF928600F78A68 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CD97461720DF928600F78A68 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		CD97461820DF928600F78A68 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		CD97461920DF928600F78A68 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		CD97461A20DF928700F78A68 /* DIYData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIYData.swift; sourceTree = "<group>"; };
 		CD97461B20DF928700F78A68 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CD97461C20DF928700F78A68 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
-		CD97461D20DF928700F78A68 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		CD97462820DF930E00F78A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD97462C20DF959200F78A68 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		CD97462D20DF959200F78A68 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+		CD97462E20DF959200F78A68 /* im3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im3.png; sourceTree = "<group>"; };
+		CD97462F20DF959200F78A68 /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "179-notepad.png"; sourceTree = "<group>"; };
+		CD97463020DF959200F78A68 /* juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice.png; sourceTree = "<group>"; };
+		CD97463120DF959300F78A68 /* welcome-images-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-images-25.png"; sourceTree = "<group>"; };
+		CD97463220DF959300F78A68 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		CD97463320DF959300F78A68 /* 80-shopping-cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-shopping-cart.png"; sourceTree = "<group>"; };
+		CD97463420DF959300F78A68 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		CD97463520DF959300F78A68 /* diet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diet.png; sourceTree = "<group>"; };
+		CD97463620DF959300F78A68 /* im1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im1.png; sourceTree = "<group>"; };
+		CD97463720DF959300F78A68 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		CD97463820DF959400F78A68 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		CD97463920DF959400F78A68 /* sample-321-like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-321-like.png"; sourceTree = "<group>"; };
+		CD97463A20DF959400F78A68 /* store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store.png; sourceTree = "<group>"; };
+		CD97463B20DF959400F78A68 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		CD97463C20DF959A00F78A68 /* sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sandwich.png; sourceTree = "<group>"; };
+		CD97463D20DF959A00F78A68 /* im33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im33.png; sourceTree = "<group>"; };
+		CD97463E20DF959A00F78A68 /* im2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = im2.png; sourceTree = "<group>"; };
+		CD97463F20DF959A00F78A68 /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		CD97464020DF959A00F78A68 /* in-love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "in-love.png"; sourceTree = "<group>"; };
+		CD97465720DF9B0F00F78A68 /* MyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDetailViewController.swift; sourceTree = "<group>"; };
+		CD97465920DF9B1E00F78A68 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +118,7 @@
 		CD9745FC20DF919900F78A68 /* SWUfood */ = {
 			isa = PBXGroup;
 			children = (
+				CD97465620DF95A300F78A68 /* image */,
 				CD97462820DF930E00F78A68 /* AppDelegate.swift */,
 				CD97461A20DF928700F78A68 /* DIYData.swift */,
 				CD9745FF20DF919900F78A68 /* ViewController.swift */,
@@ -86,15 +129,43 @@
 				CD97461B20DF928700F78A68 /* LoginViewController.swift */,
 				CD97461820DF928600F78A68 /* SecondViewController.swift */,
 				CD97461C20DF928700F78A68 /* StoreViewController.swift */,
-				CD97461920DF928600F78A68 /* ThirdViewController.swift */,
+				CD97465920DF9B1E00F78A68 /* MyTableViewController.swift */,
+				CD97465720DF9B0F00F78A68 /* MyDetailViewController.swift */,
 				CD97460120DF919900F78A68 /* Main.storyboard */,
 				CD97460720DF919900F78A68 /* Assets.xcassets */,
 				CD97460920DF919900F78A68 /* LaunchScreen.storyboard */,
 				CD97460C20DF919900F78A68 /* Info.plist */,
 				CD97460420DF919900F78A68 /* SWUfood.xcdatamodeld */,
-				CD97461D20DF928700F78A68 /* images */,
 			);
 			path = SWUfood;
+			sourceTree = "<group>";
+		};
+		CD97465620DF95A300F78A68 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				CD97463320DF959300F78A68 /* 80-shopping-cart.png */,
+				CD97462F20DF959200F78A68 /* 179-notepad.png */,
+				CD97463720DF959300F78A68 /* apple.png */,
+				CD97462D20DF959200F78A68 /* banner.jpg */,
+				CD97462C20DF959200F78A68 /* calendar.png */,
+				CD97463820DF959400F78A68 /* coffee.png */,
+				CD97463520DF959300F78A68 /* diet.png */,
+				CD97463220DF959300F78A68 /* edit.png */,
+				CD97463F20DF959A00F78A68 /* exit.png */,
+				CD97463420DF959300F78A68 /* food.png */,
+				CD97463620DF959300F78A68 /* im1.png */,
+				CD97463E20DF959A00F78A68 /* im2.png */,
+				CD97462E20DF959200F78A68 /* im3.png */,
+				CD97463D20DF959A00F78A68 /* im33.png */,
+				CD97464020DF959A00F78A68 /* in-love.png */,
+				CD97463020DF959200F78A68 /* juice.png */,
+				CD97463B20DF959400F78A68 /* like.png */,
+				CD97463920DF959400F78A68 /* sample-321-like.png */,
+				CD97463C20DF959A00F78A68 /* sandwich.png */,
+				CD97463A20DF959400F78A68 /* store.png */,
+				CD97463120DF959300F78A68 /* welcome-images-25.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,10 +227,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD97462720DF928700F78A68 /* images in Resources */,
+				CD97465520DF959B00F78A68 /* in-love.png in Resources */,
 				CD97460B20DF919900F78A68 /* LaunchScreen.storyboard in Resources */,
+				CD97464F20DF959B00F78A68 /* store.png in Resources */,
+				CD97464720DF959B00F78A68 /* edit.png in Resources */,
+				CD97464820DF959B00F78A68 /* 80-shopping-cart.png in Resources */,
+				CD97465120DF959B00F78A68 /* sandwich.png in Resources */,
+				CD97464120DF959B00F78A68 /* calendar.png in Resources */,
+				CD97464C20DF959B00F78A68 /* apple.png in Resources */,
+				CD97464D20DF959B00F78A68 /* coffee.png in Resources */,
 				CD97460820DF919900F78A68 /* Assets.xcassets in Resources */,
+				CD97464420DF959B00F78A68 /* 179-notepad.png in Resources */,
+				CD97464520DF959B00F78A68 /* juice.png in Resources */,
+				CD97464A20DF959B00F78A68 /* diet.png in Resources */,
+				CD97465420DF959B00F78A68 /* exit.png in Resources */,
+				CD97464320DF959B00F78A68 /* im3.png in Resources */,
+				CD97465020DF959B00F78A68 /* like.png in Resources */,
+				CD97465320DF959B00F78A68 /* im2.png in Resources */,
+				CD97464B20DF959B00F78A68 /* im1.png in Resources */,
 				CD97460320DF919900F78A68 /* Main.storyboard in Resources */,
+				CD97464620DF959B00F78A68 /* welcome-images-25.png in Resources */,
+				CD97464220DF959B00F78A68 /* banner.jpg in Resources */,
+				CD97464E20DF959B00F78A68 /* sample-321-like.png in Resources */,
+				CD97464920DF959B00F78A68 /* food.png in Resources */,
+				CD97465220DF959B00F78A68 /* im33.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,15 +262,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD97462920DF930E00F78A68 /* AppDelegate.swift in Sources */,
+				CD97465A20DF9B1E00F78A68 /* MyTableViewController.swift in Sources */,
 				CD97462420DF928700F78A68 /* DIYData.swift in Sources */,
 				CD97462220DF928700F78A68 /* SecondViewController.swift in Sources */,
-				CD97462320DF928700F78A68 /* ThirdViewController.swift in Sources */,
 				CD97461E20DF928700F78A68 /* CreateViewController.swift in Sources */,
 				CD97460020DF919900F78A68 /* ViewController.swift in Sources */,
 				CD97461F20DF928700F78A68 /* DetailViewController.swift in Sources */,
 				CD97460620DF919900F78A68 /* SWUfood.xcdatamodeld in Sources */,
 				CD97462620DF928700F78A68 /* StoreViewController.swift in Sources */,
 				CD97462020DF928700F78A68 /* HomeViewController.swift in Sources */,
+				CD97465820DF9B0F00F78A68 /* MyDetailViewController.swift in Sources */,
 				CD97462120DF928700F78A68 /* FirstTableViewController.swift in Sources */,
 				CD97462520DF928700F78A68 /* LoginViewController.swift in Sources */,
 			);

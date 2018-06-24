@@ -5,10 +5,10 @@
 //  Created by SWUCOMPUTER on 2018. 6. 16..
 //  Copyright © 2018년 SWUCOMPUTER. All rights reserved.
 //
-
+import CoreData
 import UIKit
 
-class SecondViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate,UITextFieldDelegate {
+class SecondViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
 
     @IBOutlet var textName: UITextField!
     @IBOutlet var textDescription: UITextView!
@@ -18,6 +18,8 @@ class SecondViewController: UIViewController,UIImagePickerControllerDelegate, UI
     @IBOutlet var shopLabel: UILabel!
     
     var shop:String?
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,8 +36,14 @@ class SecondViewController: UIViewController,UIImagePickerControllerDelegate, UI
         if let content = shop{
             shopLabel.text = content
         }
+        
     }
 
+    //Core Data저장
+    func getContext () -> NSManagedObjectContext {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        return appDelegate.persistentContainer.viewContext
+    }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
@@ -71,6 +79,24 @@ class SecondViewController: UIViewController,UIImagePickerControllerDelegate, UI
     
     
     @IBAction func saveDIY (_ sender: UIButton) {
+        
+        
+        //Core data 저장
+        let context = getContext()
+        let entity = NSEntityDescription.entity(forEntityName: "DIYfood", in: context)
+        // friend record를 새로 생성함
+        let object = NSManagedObject(entity: entity!, insertInto: context)
+        object.setValue(shop, forKey: "store_name")
+        object.setValue(textName.text, forKey: "title")
+        object.setValue(textDescription.text, forKey: "descript")
+        object.setValue(Date(), forKey: "date")
+        do {
+            try context.save()
+            print("saved!")
+        } catch let error as NSError {
+            print("Could not save \(error), \(error.userInfo)") }
+        
+        
         let name = textName.text!
         let description = textDescription.text!
         
@@ -133,7 +159,7 @@ class SecondViewController: UIViewController,UIImagePickerControllerDelegate, UI
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         guard let userID = appDelegate.userName else { return }
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd-hh:mm"
+        formatter.dateFormat = "yyyy-MM-dd"
         let myDate = formatter.string(from: Date())
         
         var restString: String = "userid=" + userID + "&title=" + name
@@ -148,6 +174,7 @@ class SecondViewController: UIViewController,UIImagePickerControllerDelegate, UI
             if let utf8Data = String(data: receivedData, encoding: .utf8) { print(utf8Data) }
         }
         task2.resume()
+        
         _ = self.navigationController?.popViewController(animated: true)
     
         

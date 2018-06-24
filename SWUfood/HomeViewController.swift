@@ -11,7 +11,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet var helloLabel: UILabel!
-    @IBOutlet var mostLikeLabel: UILabel!
+    
     
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var pageControl: UIPageControl!
@@ -37,9 +37,7 @@ class HomeViewController: UIViewController {
         imgView.image=UIImage(named:im[0])
         
         
-        if let menu = appDelegate.mostMenu{
-            self.mostLikeLabel.text = menu
-        }
+        
         
     }
 

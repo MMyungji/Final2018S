@@ -33,6 +33,8 @@ class DetailViewController: UIViewController {
         textDate.text = DIYData.date
         textDescription.numberOfLines = 0
         textDescription.text = DIYData.descript
+       
+        
         var imageName = DIYData.image
         
         if (imageName != "") {
@@ -76,6 +78,7 @@ class DetailViewController: UIViewController {
                 guard let receivedData = responseData else { return }
                 if let utf8Data = String(data: receivedData, encoding: .utf8) { print(utf8Data) }
             }
+            
             task.resume()
             self.navigationController?.popViewController(animated: true)
         }))
@@ -106,6 +109,9 @@ class DetailViewController: UIViewController {
       
         
     }
+   
+ 
+ 
     /*
     // MARK: - Navigation
 
