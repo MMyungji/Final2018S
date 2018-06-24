@@ -43,7 +43,8 @@ class DetailViewController: UIViewController {
             let url = URL(string: imageName)!
             if let imageData = try? Data(contentsOf: url) {
                 imageView.image = UIImage(data: imageData)
-            } }
+            }
+        }
         
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         guard let userID = appDelegate.userName else { return }

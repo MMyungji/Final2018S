@@ -14,8 +14,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var loginPassword: UITextField!
     @IBOutlet var labelStatus: UILabel!
     
-    
-    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool { if textField == self.loginUserid {
         textField.resignFirstResponder()
         self.loginPassword.becomeFirstResponder() }

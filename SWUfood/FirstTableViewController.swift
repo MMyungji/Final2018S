@@ -10,7 +10,7 @@ import UIKit
 
 class FirstTableViewController: UITableViewController {
 
-    let Store : [String] = ["비틀주스","가은","츄밥","퀴즈노스","기타"]
+    
     var fetchedArray: [DIYData] = Array()
     
     override func viewDidAppear(_ animated: Bool) { super.viewDidAppear(animated)
@@ -152,7 +152,7 @@ class FirstTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return Store.count
+        return 1
         
     }
 
@@ -161,10 +161,7 @@ class FirstTableViewController: UITableViewController {
         return fetchedArray.count
     }
 
-    //헤더
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return Store[section]
-    }
+    
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DIY Cell", for: indexPath)
@@ -172,9 +169,7 @@ class FirstTableViewController: UITableViewController {
         // Configure the cell...
         
         let item = fetchedArray[indexPath.row]
-        if item.store == "비틀주스"{
-            
-        }
+        
         cell.textLabel?.text = item.title
         cell.detailTextLabel?.text = item.userid + "   " + item.store + "                              좋아요 " + item.good + "개"
         
